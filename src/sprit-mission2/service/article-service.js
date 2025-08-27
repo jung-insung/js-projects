@@ -72,7 +72,6 @@ export default class ArticleService {
   }
 
   async likePush(article) {
-    
     const entityArticle = new Article(
       article.id,
       article.title,
@@ -83,7 +82,7 @@ export default class ArticleService {
 
     entityArticle.like();
     article.likeCount = entityArticle.likeCount;
-    
+
     return article.likeCount;
   }
 }
