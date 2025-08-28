@@ -7,7 +7,7 @@
   - 사용한 언어 - Node.js
 
   - API 요청 도구
-      - article - axios 이용 비동기 처리.then(),.catch()
+      - article - axios 이용 비동기 처리 .then(), .catch()
       - product - axios 이용 비동기 처리 async/await
 
 # 프로젝트 구조
