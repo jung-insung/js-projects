@@ -10,7 +10,7 @@ export default class ArticleScreen extends BaseScreen {
   openArticleUI() {
     console.log("========== Article ==========");
 
-    console.log("[1].기사 등록 [2].기사들 확인 [3]특정 기사 확인(좋아요)");
+    console.log("[1].기사 등록 [2].기사들 확인 [3].특정 기사 확인(좋아요)");
     return Number(
       this.prompt.askSync(
         "[4].기사 수정 [5].기사 삭제 [6].이전으로... [7]. 종료 -> ",
